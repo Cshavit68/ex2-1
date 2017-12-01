@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding:0;
+}
+header, nav, main, footer, aside, section, article{
+	display:block;
+}
+a{
+	text-decoration: none;
+  color:#ffffff;
+}
+#wrapperLayout1,#wrapperLayout2{
+  margin: 0 auto;
+  width: 1000px;
+  font-family: arial;
+}
+
+header{
+	height:192px;
+	background-color: #d6d6d6;
+}
+#logoHit{
+  width:125px;
+  height: 125px;
+  padding-top: 40px;
+  padding-left: 21px;
+  display: block;
+  margin: 0 auto;
+}
+#logo{
+  height: 105px;
+  width: 105px;
+  background: url('../images/logo.png') no-repeat;
+}
+nav{
+  background-color: #337ab7;
+}
+#wrapperLayout1 nav{
+  height: 62px;
+}
+#wrapperLayout2 nav{
+  float:left;
+  height: 758px;
+  width: 140px;
+}
+#wrapperLayout1 nav a{
+  text-align:center;
+  float: left;
+  line-height: 41px;
+  width: 233px;
+  margin-top: 12px;
+  margin-left: 33px;
+  }
+#wrapperLayout2 nav a{
+  line-height: 41px;
+  display: block;
+  padding-left: 5px;
+  }
+
+nav a:hover{
+    background-color: #003748;
+  }
+.selectedButton{
+  background-color: #003748;
+  }
+main{
+    position: relative;
+  }
+#wrapperLayout1 aside{
+    background-color:#eeeeee;
+    float:right;
+    height: 696px;
+    width: 244px;
+  }
+#wrapperLayout2 aside{
+    background-color:#eeeeee;
+    float:left;
+    height: 758px;
+    width: 220px;
+  }
+article{
+    background-color: #62c462;
+  }
+section{
+    height: 124px;
+  }
+section article{
+    position: absolute;
+  }
+#wrapperLayout1 aside article{
+    height: 124px;
+    width: 184px;
+    margin-top: 238px;
+    margin-left: 56px;
+  }
+#wrapperLayout2 aside article{
+    height: 69px;
+    width: 79px;
+    margin-top: 260px;
+    margin-left: 12px;
+  }
+#wrapperLayout1 section article:nth-child(1){
+    width: 700px;
+    height: 120px;
+    top:120px;
+    left:25px;
+  }
+#wrapperLayout2 section article:nth-child(1){
+    width: 190px;
+    height: 510px;
+    top:5px;
+    left:365px;
+  }
+#wrapperLayout1 section article:nth-child(2){
+    width: 700px;
+    height: 200px;
+    top:265px;
+    left:26px;
+  }
+#wrapperLayout2 section article:nth-child(2){
+    width: 190px;
+    height: 324px;
+    top:5px;
+    left:590px;
+  }
+#wrapperLayout1 section article:nth-child(3){
+    width: 184px;
+    height: 125px;
+    top:492px;
+    left:542px;
+  }
+#wrapperLayout2 section article:nth-child(3){
+    width: 190px;
+    height: 387px;
+    top:370px;
+    left:590px;
+  }
+#wrapperLayout2 section article:nth-child(4){
+    width: 190px;
+    height: 124px;
+    top:5px;
+    left:805px;
+  }
+  footer{
+		height: 45px;
+		background-color: #d6d6d6;
+    position: fixed;
+    bottom: 0;
+    width: 1000px;
+	}
